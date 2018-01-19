@@ -1,211 +1,305 @@
 # [android_guides](https://github.com/codepath/android_guides) 中文翻译
- 对于Android 开发指南，大家熟知的一般是[官方教材](https://developer.android.com/training/index.html),但其实[Codepath](https://github.com/codepath/)的[android_guides](https://github.com/codepath/android_guides) 的入门指南，和官方相比起来，也是毫不逊色的，相比较官方的，它的教程更偏向实战。
+ 对于Android 开发指南，大家熟知的一般是[官方教材](https://developer.android.com/training/index.html),但其实[Codepath](https://github.com/codepath/)的[android_guides](https://github.com/codepath/android_guides) 的开发指南，和官方相比起来，也是毫不逊色的，相比较官方的，它的教程更偏向实战，实用性更强。
 
-> *此项目不是英文文档的精准对应翻译，是个人以翻译android_guides为契机而对 Android 知识进行一个梳理，所以会有一定的自己的理解和延伸。再加上我的翻译水平有限，难免存在错误或者翻译不准确的地方，如果阅读后有不明白或者不懂，请移步英文版阅读。 欢迎批评指正。*
-
-
-
-## 目录
-
-### 开始
-
-**刚学 Android ?*- [ ] 从这里开始.
-
-- [ ] [刚开始学习 Android 资源](http://guides.codepath.com/android/Beginning-Android-Resources)
-- [ ] [配置 Android Studio](https://docs.google.com/presentation/d/1iD0sMc-qIG80yZ1AQfDU5nxSAl3Xe4nx-2W_g9yzMSM/edit#slide=id.g76d46de3_2_0) (Google文档) 或 [配置 IntelliJ IDEA](http://guides.codepath.com/android/Setting-up-IntelliJ-IDEA#configure-intellij-idea)
-- [ ] [安装一个快速的虚拟机](http://guides.codepath.com/android/Genymotion-2.0-Emulators-with-Google-Play-support) (Genymotion 教程)
-- [ ] [手机 Apps 结构](https://docs.google.com/presentation/d/1KQHSp7aJkR_P3zH02ipYajP40mbCsuWTDLoeNUfALeo/edit#slide=id.ge28d4a94_088) (概念介绍 PPT)
-- [ ] [手机页面原型](http://guides.codepath.com/android/Mobile-Screen-Archetypes) (常用手机应用页面种类)
-- [ ] [常见问题分析和解决方案](http://guides.codepath.com/android/Troubleshooting-Common-Issues) (运行出现问题?)
-- [ ] [使用 Android Studio 开发第一个应用](https://docs.google.com/presentation/d/15JnmfmFa0hJOEkBhG_TeymChLzDzpOTJvBlOj29A9fY/edit#slide=id.gf45d6347_3_0) (一步步开发 Todo 应用, PPT 介绍)
-- [ ] [Todo 应用教程](http://guides.codepath.com/android/Basic-Todo-App-Tutorial) (Todo 应用步骤指南)
-- [ ] [Android 应用例子](http://guides.codepath.com/android/Sample-Android-Apps) (项目列表)
-- [ ] [免费的 Android 课程](http://guides.codepath.com/android/Free-Android-Curriculum) (资源)
-- [ ] [Google Android 术语表](https://developers.google.com/android/for-all/vocab-words/) (定义常用术语)
-- [ ] [Android 学习资源](https://github.com/CodementorIO/Android-Learning-Resources)
-
-**使用 Eclipse ?*- [ ] 请看下面.
-
-- [ ] [配置 Eclipse ADT](http://goo.gl/Ml9YN) (详细的 PPT)
-- [ ] [使用 Eclipse ADT 开发第一个应用](http://goo.gl/pBKfYP) (一步步开发 Todo 应用)
-- [ ] [Eclipse 常见问题分析与解决方案](http://guides.codepath.com/android/Troubleshooting-Eclipse-Issues) (在 Eclipse 运行出现问题?)
-
-# 结构
-
-探索应用开发的基础
-
-- [ ] [Android 目录结构](http://guides.codepath.com/android/Android-Directory-Structure#overview) (Android 程序的文件和文件夹介绍)
-- [ ] [组织你的代码文件](http://guides.codepath.com/android/Organizing-your-Source-Files) (清理你的应用)
-- [ ] [使用资源文件](http://guides.codepath.com/android/Using-String-Resources) (理解资源名)
-- [ ] [处理配置更改](http://guides.codepath.com/android/Handling-Configuration-Changes) (页面切换过程)
-- [ ] [迁移到 AppCompat 库](http://guides.codepath.com/android/Migrating-to-the-AppCompat-Library) (使用这个支持库)
-
-# 视图和布局
-
-探索视图、布局、风格和常见 UI 模式的细节.
-
-- [ ] [构建视图布局](http://guides.codepath.com/android/Constructing-View-Layouts) (如何布局视图)
-- [ ] [定义视图和属性](http://guides.codepath.com/android/Defining-Views-and-their-Attributes) (比重、边距、内边距 etc)
-- [ ] [操作 TextView](http://guides.codepath.com/android/Working-with-the-TextView) (属性、画板、自定义字体)
-- [ ] [操作 EditText](http://guides.codepath.com/android/Working-with-the-EditText) (属性)
-- [ ] [操作 ImageView](http://guides.codepath.com/android/Working-with-the-ImageView) (画板、大小和比例，密度，原始位图)
-- [ ] [操作输入视图](http://guides.codepath.com/android/Working-with-Input-Views) (Spinner、RatingBar, etc)
-- [ ] [操作软键盘](http://guides.codepath.com/android/Working-with-the-Soft-Keyboard)
-- [ ] [操作 WebView](http://guides.codepath.com/android/Working-with-the-WebView) (Web 视图)
-- [ ] [操作 ScrollView](http://guides.codepath.com/android/Working-with-the-ScrollView) (滚动视图)
-
-## 设计和样式视图
-
-- [ ] [画板](http://guides.codepath.com/android/Drawables) (如何去打磨 UI)
-- [ ] [样式和主题](http://guides.codepath.com/android/Styles-and-Themes) (整合页面样式)
-- [ ] [动画](http://guides.codepath.com/android/Animations) (动画页面，布局，活动等等)
-- [ ] [打磨 UI 的技巧和工具](http://guides.codepath.com/android/Polishing-a-UI-Tips-and-Tools) (关键资源的链接)
-- [ ] [Android 设计指导方针](http://guides.codepath.com/android/Android-Design-Guidelines) (Android 设计标准的概述)
-- [ ] [UI 页面样式常见问题](http://guides.codepath.com/android/Styling-UI-Screens-FAQ) (在构建页面中常见问题的答案)
-- [ ] [克隆一个登录页面布局导向](http://guides.codepath.com/android/Cloning-a-Login-Screen-Layout-Guide) (创建一个吸引人的 UI, Q&A)
-- [ ] [开发自定义主题](http://guides.codepath.com/android/Developing-Custom-Themes) (集成画板，样式和主题)
-- [ ] [Material Design 入门](http://guides.codepath.com/android/Material-Design-Primer) (Android 5.0 设计概述)
-- [ ] [动态颜色使用调色板](http://guides.codepath.com/android/Dynamic-Color-using-Palettes) [适配颜色, Android 5.0]
-- [ ] [细浪动画 Ripple Animation](http://guides.codepath.com/android/Ripple-Animation) (Android 5.0)
-- [ ] [分享元素在 Activity 过渡](http://guides.codepath.com/android/Shared-Element-Activity-Transition) (Android 5.0)
-- [ ] [圆形显示动画](http://guides.codepath.com/android/Circular-Reveal-Animation) (Android 5.0)
-- [ ] [设计支持库](http://guides.codepath.com/android/Design-Support-Library) (Material Desgin 库)
-
-## 适配器页面
-
-- [ ] [使用一个 ArrayAdapter 在 ListView](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView) (自定义列表项)
-- [ ] [在适配器页面中无限滚动](http://guides.codepath.com/android/Endless-Scrolling-with-AdapterViews) (无限分页)
-- [ ] [实现 Pull to Refresh 指南](http://guides.codepath.com/android/Implementing-Pull-to-Refresh-Guide)
-- [ ] [实现横向 ListView 指南](http://guides.codepath.com/android/Implementing-a-Horizontal-ListView-Guide) (横向滚动)
-- [ ] [实现变种 ListView ](http://guides.codepath.com/android/Implementing-a-Heterogenous-ListView) (在不同类型项)
-- [ ] [使用 RecyclerView](http://guides.codepath.com/android/Using-the-RecyclerView) (Android 5.0)
-- [ ] [使用 CardView](http://guides.codepath.com/android/Using-the-CardView) (Android 5.0)
-
-## 自定义视图
-
-- [ ] [在视图中的基础绘画](http://guides.codepath.com/android/Basic-Painting-with-Views) (简单画板应用教程)
-- [ ] [定义自定义视图](http://guides.codepath.com/android/Defining-Custom-Views) (**需要注意**)
-- [ ] [扩展 SurfaceView](http://guides.codepath.com/android/Extending-SurfaceView) (**需要注意**)
-- [ ] [在 OpenGL 和 GLSurfaceView 中绘画](http://guides.codepath.com/android/Drawing-with-OpenGL-and-GLSurfaceView) (**需要注意**)
-- [ ] [建立一个自定义动画进度条](http://guides.codepath.com/android/Progress-Bar-Custom-View) (联系)
-
-# 交互
-
-探索如何在一个应用程序允许**用户交互**和**导航**:
-
-- [ ] [视图事件监听](http://guides.codepath.com/android/Basic-Event-Listeners) (点击、按键、更新事件)
-- [ ] [创建自定义监听](http://guides.codepath.com/android/Creating-Custom-Listeners) (定义，设置和触发事件)
-- [ ] [显示 Toasts](http://guides.codepath.com/android/Displaying-Toasts) (快速通知和包含自定义视图)
-- [ ] [显示 Snackbar](http://guides.codepath.com/android/Displaying-the-Snackbar) (在活动中快速通知 Android 5.0)
-- [ ] [探索 ActionBar](http://guides.codepath.com/android/Defining-The-ActionBar) (包含添加动作项)
-- [ ] [扩展 ActionBar 指南](http://guides.codepath.com/android/Extended-ActionBar-Guide) (分裂条，自定义 ActionBar, etc)
-- [ ] [手势和点击事件](http://guides.codepath.com/android/Gestures-and-Touch-Events) (侧滑、震动和拖拽事件)
-- [ ] [菜单和弹出](http://guides.codepath.com/android/Menus-and-Popups) (Context Menu, PopupMenu, PopupWindow)
-- [ ] [对话](http://guides.codepath.com/android/Using-DialogFragment) (显示一个透明内容)
-- [ ] [实现一个 Rate Me 功能](http://guides.codepath.com/android/Implementing-a-Rate-Me-Feature) (为了获得 Google Play 商店排名)
-- [ ] [重复周期任务](http://guides.codepath.com/android/Repeating-Periodic-Tasks) (Handler, ScheduledThreadPoolExecutor)
-- [ ] [浮动的操作按钮](http://guides.codepath.com/android/Floating-Action-Buttons) (Android 5.0, 提升操作)
-- [ ] [在 CoordinatorLayout 处理滚动](http://guides.codepath.com/android/Handling-Scrolls-with-CoordinatorLayout) (崩溃的工具栏)
-
-# 导航
-
-- [ ] [导航 Activities 在 Intent](http://guides.codepath.com/android/Using-Intents-to-Create-Flows) (在 Activities 之间通信)
-- [ ] [通用导航范例](http://guides.codepath.com/android/Common-Navigation-Paradigms) (Tabs, Swipe-able Views, Pull-out Drawer)
-- [ ] [通用固定的 Intents](http://guides.codepath.com/android/Common-Implicit-Intents) (打开呼叫, 发送文本, 打开链接)
-- [ ] [导航和任务栈](http://guides.codepath.com/android/Navigation-and-Task-Stacks) (控制任务栈的行为)
-- [ ] [分享内容在 Intents](http://guides.codepath.com/android/Sharing-Content-with-Intents) (在 ShareActionProvider)
-- [ ] [使用 Parcelable]() (在 activities 之间快速传递数据)
-- [ ] [图书搜索教程](http://guides.codepath.com/android/Book-Search-Tutorial) (搜索视图工具条和分享内容)
-
-# 网络和数据模型
-
-深入网络层和模型层数据驱动的应用程序:
-
-- [ ] [发送和节约网络请求](http://guides.codepath.com/android/Sending-and-Managing-Network-Requests) (API调用，图片下载)
-- [ ] [转换 JSON 到模型]() (JSON 对象反序列化)
-- [ ] [创建并执行 Async 任务](http://guides.codepath.com/android/Creating-and-Executing-Async-Tasks) (长时间运行在后台的任务)
-- [ ] [处理进度条](http://guides.codepath.com/android/Handling-ProgressBars) (在长时间运行的任务)
-- [ ] [RottenTomatoes 网络接口教程](http://guides.codepath.com/android/RottenTomatoes-Networking-Tutorial)
-- [ ] [网络库 Volley](http://guides.codepath.com/android/Networking-with-the-Volley-Library)
-- [ ] [使用 Fresco 库显示图片](http://guides.codepath.com/android/Displaying-Images-with-the-Fresco-Library) (FaceBook)
-- [ ] [在 Parse 建立应用程序的数据驱动](http://guides.codepath.com/android/Building-Data-driven-Apps-with-Parse)
-- [ ] [在 Parse 建立简单的聊天客户端](http://guides.codepath.com/android/Building-Simple-Chat-Client-with-Parse)
-- [ ] [在 Parse 常见问题解决方案](http://guides.codepath.com/android/Troubleshooting-Common-Issues-with-Parse)
-- [ ] [在 Retrofit 处理 APIs](http://guides.codepath.com/android/Consuming-APIs-with-Retrofit)
-- [ ] [在 Sockets 发送和接收数据](http://guides.codepath.com/android/Sending-and-Receiving-Data-with-Sockets)
-
-
-# 持久化
-
-探索数据持久化方案:
-
-- [ ] [在这些方案中持久化数据](http://guides.codepath.com/android/Persisting-Data-to-the-Device) (Preferences, Files, SQLite, ORMs)
-- [ ] [ActiveAndroid ORM 教程](http://guides.codepath.com/android/ActiveAndroid-Guide) (Q&A)
-- [ ] [存储和访问 SharedPreference](http://guides.codepath.com/android/Storing-and-Accessing-SharedPreferences)
-- [ ] [在 SQLiteOpenHelper 的本地化数据](http://guides.codepath.com/android/Local-Databases-with-SQLiteOpenHelper)
-- [ ] [填充一个 ListView 在 CursorAdapter](http://guides.codepath.com/android/Populating-a-ListView-with-a-CursorAdapter)
-- [ ] [Sugar 一个简洁的持久化库](http://guides.codepath.com/android/Clean-Persistence-with-Sugar-ORM) (安装、查询、迁移)
-- [ ] [设置 PreferenceFragment](http://guides.codepath.com/android/Settings-with-PreferenceFragment)
-- [ ] [在 Content Providers 加载通信录](http://guides.codepath.com/android/Loading-Contacts-with-Content-Providers)
-- [ ] [在 Calendar 交互](http://guides.codepath.com/android/Interacting-with-the-Calendar)
-- [ ] [创建 Content Provides](http://guides.codepath.com/android/Creating-Content-Providers) (**需要注意**)
-- [ ] [简单的 SQL 在 Cupboard](http://guides.codepath.com/android/Easier-SQL-with-Cupboard)
-
-# 碎片(Fragments)
-
-理解如何使用 Fragments 建立一个健壮、灵活的视图:
-
-- [ ] [创建和使用 Fragments](http://guides.codepath.com/android/Creating-and-Using-Fragments)
-- [ ] [显示 DialogFragment](http://guides.codepath.com/android/Using-DialogFragment)
-- [ ] [使用 TabLayout 制作 Google Play 样式 Tabs](http://guides.codepath.com/android/Google-Play-Style-Tabs-using-TabLayout)
-- [ ] [使用 PagerSlidingTabStrip 制作侧滑 Tabs](http://guides.codepath.com/android/Sliding-Tabs-with-PagerSlidingTabStrip)
-- [ ] [在 FragmentPagerAdapter 使用 ViewPager](http://guides.codepath.com/android/ViewPager-with-FragmentPagerAdapter)
-- [ ] [抽屉导航 Fragment](http://guides.codepath.com/android/Fragment-Navigation-Drawer)
-- [ ] [简洁的用户界面](http://guides.codepath.com/android/Flexible-User-Interfaces) (使用 Fragment)
-
-# 传感器和设备 SDKs
-
-通过探索 Android SDK 使用传感器和可用组件:
-
-- [ ] [访问 相机 和 存储的媒体文件 ](http://guides.codepath.com/android/Accessing-the-Camera-and-Stored-Media) (相机、图片集)
-- [ ] [去监听 Sensors 和 Location](http://guides.codepath.com/android/Listening-to-Sensors-and-Location) (Light, Accelerometer, Location)
-- [ ] [Video 和 Audio 的播放和记录](http://guides.codepath.com/android/Video-and-Audio-Playback-and-Recording) (MediaPlayer, VideoView)
-- [ ] [Google Maps 设置教程](http://guides.codepath.com/android/Google-Maps-Fragment-Guide) (和[设置 Genymotion](http://guides.codepath.com/android/Google-Maps-Fragment-Guide#installing-genymotion))
-- [ ] [使用 Google Maps API v2](http://guides.codepath.com/android/Google-Maps-API-v2-Usage) (标记、信息窗口)
-
-# 服务
-
-挖掘如何使用后台服务和利用 Android 系统服务:
-
-- [ ] [开始一个后台服务](http://guides.codepath.com/android/Starting-Background-Services) (在 IntentService 和 Receivers)
-- [ ] [通知](http://guides.codepath.com/android/Notifications) (持续通知在指示板)
-- [ ] [Push 信息](http://guides.codepath.com/android/Push-Messaging) (分析 Push 和 Broadcast Receiver 概括)
-- [ ] [Google 云信息](http://guides.codepath.com/android/Google-Cloud-Messaging) (详细的 GCM 实现)
-- [ ] [实时信息](http://guides.codepath.com/android/Real-time-Messaging) (**需要注意**)
-
-# 工作流指南
-
-专注的问题像部署、测试、依赖管理，等等:
-
-- [ ] [开始 Gradle](http://guides.codepath.com/android/Getting-Started-with-Gradle)
-- [ ] [使用 Android Studio](http://guides.codepath.com/android/Using-Android-Studio)
-- [ ] [安装 Android SDK 工具](http://guides.codepath.com/android/Installing-Android-SDK-Tools)
-- [ ] [建立 Gradle 项目在 Jenkins CI](http://guides.codepath.com/android/Building-Gradle-Projects-with-Jenkins-CI)
-- [ ] [设置 Travis CI](http://guides.codepath.com/android/Setting-up-Travis-CI)
-- [ ] [Android Unit 和 集成测试](http://guides.codepath.com/android/Android-Unit-and-Integration-testing) (在 Roboelectric 和 Robotium)
-- [ ] [为单元测试安装 Roboelectric](http://guides.codepath.com/android/Robolectric-Installation-for-Unit-Testing)
-- [ ] [必须有的库]() (网络、持久化、兼容性、通用，等等)
-- [ ] [发布到 Google Play 商店](http://goo.gl/mUlGL1) (幻灯片)
-- [ ] [在 Android Studio 发布](http://guides.codepath.com/android/Publishing-to-the-Play-Store)
-- [ ] [外部流行工具](http://guides.codepath.com/android/Popular-External-Tools) (数据分析、崩溃包括)
-- [ ] [在 Git 中合作项目](http://guides.codepath.com/android/Collaborating-on-Projects-with-Git) (Git、团队)
-- [ ] [调试 和 Profiling 应用程序](http://guides.codepath.com/android/Debugging-and-Profiling-Apps) (**需要注意**)
-- [ ] [Dagger 2 依赖注入](http://guides.codepath.com/android/Dependency-Injection-with-Dagger-2) (**需要注意**)
-- [ ] [Android 最佳实践](https://github.com/futurice/android-best-practices)
+> *此项目不是英文文档的精准对应翻译，是个人以翻译android_guides为契机对 Android 知识进行整体梳理，所以会有不少自己的理解和延伸，再加上我的翻译水平有限，难免存在错误或者翻译不准确的地方，如果阅读后有不明白或者不懂，请移步英文版阅读。 欢迎批评指正。*
 
 
 
+![codepath](http://p2eo71f28.bkt.clouddn.com/68747470733a2f2f692e696d6775722e636f6d2f586778576679462e706e67.png)
 
+## 入门
+
+- [ ] [Android入门](https://github.com/codepath/android_guides/wiki/Beginning-Android-Resources)
+- [ ] [配置Android Studio](http://goo.gl/X2SVFR)
+- [ ] [在设备上运行应用程序](https://github.com/codepath/android_guides/wiki/Running-Apps-on-Your-Device)
+- [ ] [使用Android Studio开发我们的第一个应用程序](http://goo.gl/8R7Mty)
+- [ ] [移动应用程序体系结构](http://goo.gl/AAsGLx)
+- [ ] [移动屏幕原型](https://github.com/codepath/android_guides/wiki/Mobile-Screen-Archetypes)
+- [ ] [Todo应用开发指南](https://github.com/codepath/android_guides/wiki/Basic-Todo-App-Tutorial)
+- [ ] [示例Android应用程序](https://github.com/codepath/android_guides/wiki/Sample-Android-Apps)
+- [ ] [与Android更新保持同步](https://github.com/codepath/android_guides/wiki/Keeping-Updated-with-Android)（博客，资讯）
+- [ ] [Android最佳实践](https://github.com/codepath/android_guides/wiki/Effective-Java-for-Android)（java）
+- [ ] [使用Kotlin进行Android开发](https://github.com/codepath/android_guides/wiki/Using-Kotlin-for-Android-development)（Java的替代语法）
+
+### 调试和问题解决
+
+- [ ] [异常调试和定位](https://github.com/codepath/android_guides/wiki/Debugging-Exceptions-within-your-App)
+- [ ] [常见问题解决](https://github.com/codepath/android_guides/wiki/Troubleshooting-Common-Issues)
+- [ ] [网络故障排除](https://github.com/codepath/android_guides/wiki/Troubleshooting-API-calls)
+
+### 外部开发资源
+
+- [ ] [Android资源列表](https://github.com/codepath/android_guides/wiki/Beginning-Android-Resources#beginning-android-resources)
+- [ ] [终极的Android参考](https://github.com/aritraroy/UltimateAndroidReference/blob/master/README.md)
+- [ ] [Android技巧](https://github.com/nisrulz/android-tips-tricks/blob/master/Readme.md)
+- [ ] [Google Android交互式编解码器](https://codelabs.developers.google.com/?cat=Android)
+- [ ] [Google Android常用术语](https://developers.google.com/android/for-all/vocab-words/)
+- [ ] [Android资源汇总](https://github.com/MakinGiants/awesome-android-learner)
+- [ ] [Android学习资源](https://github.com/CodementorIO/Android-Learning-Resources)
+- [ ] [Awesome Android](https://github.com/amitshekhariitbhu/awesome-android-complete-reference)
+- [ ] [免费Android课程](https://github.com/codepath/android_guides/wiki/Free-Android-Curriculum)
+
+
+## Android 结构
+
+探索应用程序开发核心：
+
+- [ ] [使用上下文](https://github.com/codepath/android_guides/wiki/Using-Context)
+- [ ] [Android目录结构](https://github.com/codepath/android_guides/wiki/Android-Directory-Structure)
+- [ ] [源文件目录结构整理](https://github.com/codepath/android_guides/wiki/Organizing-your-Source-Files)
+- [ ] [Android应用程序体系结构](https://github.com/codepath/android_guides/wiki/Architecture-of-Android-Apps)
+- [ ] [了解应用程序资源](https://github.com/codepath/android_guides/wiki/Understanding-App-Resources)
+- [ ] [了解应用生命周期](https://github.com/codepath/android_guides/wiki/Activity-Lifecycle)
+- [ ] [处理屏幕旋转](https://github.com/codepath/android_guides/wiki/Handling-Configuration-Changes)
+- [ ] [迁移到AppCompat库](https://github.com/codepath/android_guides/wiki/Migrating-to-the-AppCompat-Library)
+- [ ] [应用程序权限](https://github.com/codepath/android_guides/wiki/Understanding-App-Permissions)
+- [ ] [使用PermissionsDispatcher管理运行时权限](https://github.com/codepath/android_guides/wiki/Managing-Runtime-Permissions-with-PermissionsDispatcher)
+- [ ] [用枚举注释代替枚举](https://github.com/codepath/android_guides/wiki/Replacing-Enums-with-Enumerated-Annotations)（StringDef，IntDef校验类型）
+- [ ] [了解Android Application 类](https://github.com/codepath/android_guides/wiki/Understanding-the-Android-Application-Class)（自定义应用程序对象）
+
+## 视图和布局
+
+探索视图，布局，样式和常见UI模式的坚韧细节：
+
+- [ ] [构建视图布局](https://github.com/codepath/android_guides/wiki/Constructing-View-Layouts)
+- [ ] [定义视图及其属性](https://github.com/codepath/android_guides/wiki/Defining-Views-and-their-Attributes)(Gravity, Margin, Padding等)
+- [ ] [使用TextView](https://github.com/codepath/android_guides/wiki/Working-with-the-TextView)（属性，Drawables，自定义字体）
+- [ ] [使用EditText](https://github.com/codepath/android_guides/wiki/Working-with-the-EditText)
+- [ ] [使用ImageView](https://github.com/codepath/android_guides/wiki/Working-with-the-ImageView)（Drawables，Size和Scale，Density，Raw Bitmaps）
+- [ ] [使用输入视图](https://github.com/codepath/android_guides/wiki/Working-with-Input-Views)（Spinner，RatingBar等）
+- [ ] [使用软键盘](https://github.com/codepath/android_guides/wiki/Working-with-the-Soft-Keyboard)
+- [ ] [使用WebView](https://github.com/codepath/android_guides/wiki/Working-with-the-WebView)
+- [ ] [使用ScrollView](https://github.com/codepath/android_guides/wiki/Working-with-the-ScrollView)
+- [ ] [视图应用数据绑定](https://github.com/codepath/android_guides/wiki/Applying-Data-Binding-for-Views)
+
+### 设计和设置视图样式
+
+- [ ] [Drawables](https://github.com/codepath/android_guides/wiki/Drawables)
+- [ ] [样式和主题](https://github.com/codepath/android_guides/wiki/Styles-and-Themes)
+- [ ] [动画](https://github.com/codepath/android_guides/wiki/Animations)
+- [ ] [UI技巧和工具](https://github.com/codepath/android_guides/wiki/Polishing-a-UI-Tips-and-Tools)
+- [ ] [Android设计指南](https://github.com/codepath/android_guides/wiki/Android-Design-Guidelines)
+- [ ] [UI常见问题解答](https://github.com/codepath/android_guides/wiki/Styling-UI-Screens-FAQ)
+- [ ] [创建有吸引力的用户界面](https://github.com/codepath/android_guides/wiki/Cloning-a-Login-Screen-Layout-Guide)
+- [ ] [开发自定义主题](https://github.com/codepath/android_guides/wiki/Developing-Custom-Themes)（集成drawable，样式和主题）
+- [ ] [材料设计入门](https://github.com/codepath/android_guides/wiki/Material-Design-Primer)
+- [ ] [使用调色板的动态颜色](https://github.com/codepath/android_guides/wiki/Dynamic-Color-using-Palettes)（自适应颜色，Android 5.0）
+- [ ] [波纹动画](https://github.com/codepath/android_guides/wiki/Ripple-Animation)（Android 5.0）
+- [ ] [共享元素转换](https://github.com/codepath/android_guides/wiki/Shared-Element-Activity-Transition)（Android 5.0）
+- [ ] [圆形显示动画](https://github.com/codepath/android_guides/wiki/Circular-Reveal-Animation)（Android 5.0）
+- [ ] [Material Design Library](https://github.com/codepath/android_guides/wiki/Design-Support-Library)
+- [ ] [View Hierarchy 动画](https://github.com/codepath/android_guides/wiki/View-Hierarchy-Animations)（Android 4.0）
+
+### AdapterViews
+
+- [ ] [在ListView中使用ArrayAdapter](https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView)
+- [ ] [RecyclerView分页加载](https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView)
+- [ ] [实现下拉刷新](https://github.com/codepath/android_guides/wiki/Implementing-Pull-to-Refresh-Guide)
+- [ ] [实现水平ListView](https://github.com/codepath/android_guides/wiki/Implementing-a-Horizontal-ListView-Guide)
+- [ ] [实现多种类型 item 的ListView](https://github.com/codepath/android_guides/wiki/Implementing-a-Heterogenous-ListView)
+- [ ] [使用RecyclerView](https://github.com/codepath/android_guides/wiki/Using-the-RecyclerView)
+- [ ] [RecyclerView内多种类型 item](https://github.com/codepath/android_guides/wiki/Heterogenous-Layouts-inside-RecyclerView)
+- [ ] [使用CardView](https://github.com/codepath/android_guides/wiki/Using-the-CardView)
+- [ ] [使用ListView的BaseAdapter](https://github.com/codepath/android_guides/wiki/Using-a-BaseAdapter-with-ListView)
+
+### 自定义View
+
+- [ ] [基本的绘画与视图](https://github.com/codepath/android_guides/wiki/Basic-Painting-with-Views)
+- [ ] [定义自定义视图](https://github.com/codepath/android_guides/wiki/Defining-Custom-Views)
+- [ ] [扩展SurfaceView](https://github.com/codepath/android_guides/wiki/Extending-SurfaceView)
+- [ ] [用OpenGL和GLSurfaceView绘图](https://github.com/codepath/android_guides/wiki/Drawing-with-OpenGL-and-GLSurfaceView)
+- [ ] [自定义动画进度条](https://github.com/codepath/android_guides/wiki/Progress-Bar-Custom-View)
+
+
+
+## 用户交互以及事件监听
+
+探索如何在应用中定义用户交互和导航：
+
+- [ ] [事件监听器](https://github.com/codepath/android_guides/wiki/Basic-Event-Listeners)
+- [ ] [创建自定义监听器](https://github.com/codepath/android_guides/wiki/Creating-Custom-Listeners)
+- [ ] [Toast](https://github.com/codepath/android_guides/wiki/Displaying-Toasts)
+- [ ] [Snackbar](https://github.com/codepath/android_guides/wiki/Displaying-the-Snackbar)
+- [ ] [探索ActionBar](https://github.com/codepath/android_guides/wiki/Defining-The-ActionBar)
+- [ ] [ActionBar拓展](https://github.com/codepath/android_guides/wiki/Extended-ActionBar-Guide)（split-bar，自定义ActionBar等）
+- [ ] [手势和触摸事件](https://github.com/codepath/android_guides/wiki/Gestures-and-Touch-Events)
+- [ ] [菜单和弹出窗口](https://github.com/codepath/android_guides/wiki/Menus-and-Popups)（上下文菜单，PopupMenu，PopupWindow）
+- [ ] [DialogFragment对话框](https://github.com/codepath/android_guides/wiki/Using-DialogFragment)
+- [ ] [实现“给我评分”功能](https://github.com/codepath/android_guides/wiki/Implementing-a-Rate-Me-Feature)（获取Play商店评分）
+- [ ] [重复周期性任务](https://github.com/codepath/android_guides/wiki/Repeating-Periodic-Tasks)（Handler，ScheduledThreadPoolExecutor）
+- [ ] [使用Toolbar](https://github.com/codepath/android_guides/wiki/Using-the-App-Toolbar)（替换ActionBar）
+- [ ] [浮动操作按钮](https://github.com/codepath/android_guides/wiki/Floating-Action-Buttons)（Android 5.0）
+- [ ] [使用CoordinatorLayout处理滚动](https://github.com/codepath/android_guides/wiki/Handling-Scrolls-with-CoordinatorLayout)（折叠工具栏）
+
+
+
+## 导航
+
+- [ ] [用意图导航Activity](https://github.com/codepath/android_guides/wiki/Using-Intents-to-Create-Flows)
+- [ ] [常见导航范例](https://github.com/codepath/android_guides/wiki/Common-Navigation-Paradigms)（选项卡，可滑动视图，拉出式抽屉）
+- [ ] [常见的隐含意图](https://github.com/codepath/android_guides/wiki/Common-Implicit-Intents)（拨打电话，发送文本，打开URL）
+- [ ] [导航和任务堆栈](https://github.com/codepath/android_guides/wiki/Navigation-and-Task-Stacks)（控制任务堆栈的行为）
+- [ ] [使用意图共享内容](https://github.com/codepath/android_guides/wiki/Sharing-Content-with-Intents)（ShareActionProvider）
+- [ ] [使用Parcelable](https://github.com/codepath/android_guides/wiki/Using-Parcelable)（在Activity之间快速传递数据）
+- [ ] [图书搜索app](https://github.com/codepath/android_guides/wiki/Book-Search-Tutorial)
+
+
+
+## 网络和模型
+
+- [ ] [发送和管理网络请求](https://github.com/codepath/android_guides/wiki/Sending-and-Managing-Network-Requests)
+- [ ] [使用Glide库显示图片](https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Glide-Library)）
+- [ ] [使用Picasso库显示图片](https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Picasso-Library)
+- [ ] [将JSON转换为模型](https://github.com/codepath/android_guides/wiki/Converting-JSON-to-Models)（JSON反序列化）
+- [ ] [利用Gson库](https://github.com/codepath/android_guides/wiki/Leveraging-the-Gson-Library)（JSON反序列化库）
+- [ ] [创建和执行异步任务](https://github.com/codepath/android_guides/wiki/Creating-and-Executing-Async-Tasks)
+- [ ] [ProgressBars](https://github.com/codepath/android_guides/wiki/Handling-ProgressBars)
+- [ ] [烂番茄网络请求教程](https://github.com/codepath/android_guides/wiki/Rotten-Tomatoes-Networking-Tutorial)
+- [ ] [Volley网络库](https://github.com/codepath/android_guides/wiki/Networking-with-the-Volley-Library)
+- [ ] [OkHttp网络库](https://github.com/codepath/android_guides/wiki/Using-OkHttp)
+- [ ] [Fast Android Networking](https://github.com/amitshekhariitbhu/Fast-Android-Networking)
+- [ ] [Retrofit](https://github.com/codepath/android_guides/wiki/Consuming-APIs-with-Retrofit)
+- [ ] [Fresco图片加载库](https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Fresco-Library)
+- [ ] [使用Parse构建数据驱动的应用程序](https://github.com/codepath/android_guides/wiki/Building-Data-driven-Apps-with-Parse)
+- [ ] [配置Parse服务器](https://github.com/codepath/android_guides/wiki/Configuring-a-Parse-Server)
+- [ ] [使用Parse实现简单的聊天客户端](https://github.com/codepath/android_guides/wiki/Building-Simple-Chat-Client-with-Parse)
+- [ ] [使用Parse常见问题](https://github.com/codepath/android_guides/wiki/Troubleshooting-Common-Issues-with-Parse)
+- [ ] [通过套接字发送和接收数据](https://github.com/codepath/android_guides/wiki/Sending-and-Receiving-Data-with-Sockets)
+- [ ] [使用Firebase构建数据驱动的应用程序](https://github.com/codepath/android_guides/wiki/Building-Data-driven-Apps-with-Firebase)
+
+
+
+##  数据持久化
+
+探索数据持久性的策略：
+
+- [ ] [将数据持久化到设备](https://github.com/codepath/android_guides/wiki/Persisting-Data-to-the-Device)（Preferences，文件，SQLite，ORM）
+- [ ] [ActiveAndroid ORM指南](https://github.com/codepath/android_guides/wiki/ActiveAndroid-Guide)
+- [ ] [存储和访问SharedPreferences](https://github.com/codepath/android_guides/wiki/Storing-and-Accessing-SharedPreferences)
+- [ ] [本地数据库与SQLiteOpenHelper](https://github.com/codepath/android_guides/wiki/Local-Databases-with-SQLiteOpenHelper)
+- [ ] [使用CursorAdapter填充ListView](https://github.com/codepath/android_guides/wiki/Populating-a-ListView-with-a-CursorAdapter)
+- [ ] [PreferenceFragment实现设置页面](https://github.com/codepath/android_guides/wiki/Settings-with-PreferenceFragment)
+- [ ] [用内容提供者加载联系人](https://github.com/codepath/android_guides/wiki/Loading-Contacts-with-Content-Providers)（CursorLoader，LoaderManager）
+- [ ] [与日历交互](https://github.com/codepath/android_guides/wiki/Interacting-with-the-Calendar)（CalendarProvider）
+- [ ] [创建内容提供者](https://github.com/codepath/android_guides/wiki/Creating-Content-Providers)
+- [ ] [用Sugar ORM实现清晰的持久性](https://github.com/codepath/android_guides/wiki/Clean-Persistence-with-Sugar-ORM)
+- [ ] [DBFlow ORM指南](https://github.com/codepath/android_guides/wiki/DBFlow-Guide)
+- [ ] [使用 Cupboard 实现更简单的 SQL](https://github.com/codepath/android_guides/wiki/Easier-SQL-with-Cupboard)
+- [ ] [使用JDXA ORM实现强大的持久性](https://github.com/codepath/android_guides/wiki/Powerful-Persistence-with-JDXA-ORM)
+- [ ] [在Android中存储密钥](https://github.com/codepath/android_guides/wiki/Storing-Secret-Keys-in-Android)（API密钥，证书）
+
+
+
+## 图片
+
+- [ ] [使用ImageView](https://github.com/codepath/android_guides/wiki/Working-with-the-ImageView)（Drawables，Size和Scale，Density，Raw Bitmaps）
+- [ ] [Drawables](https://github.com/codepath/android_guides/wiki/Drawables)
+- [ ] [使用Glide显示图片](https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Glide-Library)
+- [ ] [使用Picasso显示图片](https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Picasso-Library)
+- [ ] [使用Fresco显示图片](https://github.com/codepath/android_guides/wiki/Displaying-Images-with-the-Fresco-Library)
+
+
+
+## Fragments
+
+了解如何使用Fragments构建功能强大且灵活的视图：
+
+- [ ] [创建和使用Fragment](https://github.com/codepath/android_guides/wiki/Creating-and-Using-Fragments)
+- [ ] [显示一个DialogFragment](https://github.com/codepath/android_guides/wiki/Using-DialogFragment)
+- [ ] [使用TabLayout 实现Google Play选项卡样式](https://github.com/codepath/android_guides/wiki/Google-Play-Style-Tabs-using-TabLayout)
+- [ ] [使用PagerSlidingTabStrip滑动选项卡](https://github.com/codepath/android_guides/wiki/Sliding-Tabs-with-PagerSlidingTabStrip)
+- [ ] [ViewPager与FragmentPagerAdapter](https://github.com/codepath/android_guides/wiki/ViewPager-with-FragmentPagerAdapter)
+- [ ] [Fragment导航抽屉](https://github.com/codepath/android_guides/wiki/Fragment-Navigation-Drawer)
+- [ ] [灵活的用户界面](https://github.com/codepath/android_guides/wiki/Flexible-User-Interfaces)
+
+
+
+## 传感器和设备SDK
+
+探索Android SDK提供的传感器和组件：
+
+- [ ] [访问相机和存储介质](https://github.com/codepath/android_guides/wiki/Accessing-the-Camera-and-Stored-Media)（相机，照片胶卷）
+- [ ] [使用LocationServices API检索位置](https://github.com/codepath/android_guides/wiki/Retrieving-Location-with-LocationServices-API)（位置）
+- [ ] [使用SensorManager监听传感器](https://github.com/codepath/android_guides/wiki/Listening-to-Sensors-using-SensorManager)（光，加速计）
+- [ ] [音频播放和录制](https://github.com/codepath/android_guides/wiki/Audio-Playback-and-Recording)（MediaPlayer）
+- [ ] [视频播放和录制](https://github.com/codepath/android_guides/wiki/Video-Playback-and-Recording)（VideoView）
+- [ ] [使用蓝牙API进行连接](https://github.com/codepath/android_guides/wiki/Connectivity-using-the-Bluetooth-API)
+
+
+
+## 服务
+
+深入了解如何运行后台服务或利用Android系统服务：
+
+- [ ] [启动后台服务](https://github.com/codepath/android_guides/wiki/Starting-Background-Services)（使用IntentService和接收器）
+- [ ] [通知](https://github.com/codepath/android_guides/wiki/Notifications)
+- [ ] [推送消息](https://github.com/codepath/android_guides/wiki/Push-Messaging)
+- [ ] [Google Cloud Messaging](https://github.com/codepath/android_guides/wiki/Google-Cloud-Messaging)
+- [ ] [实时消息](https://github.com/codepath/android_guides/wiki/Real-time-Messaging)
+- [ ] [管理线程和自定义服务](https://github.com/codepath/android_guides/wiki/Managing-Threads-and-Custom-Services)（Looper，Handler，ThreadPoolExecutor）
+- [ ] [服务器同步（SyncAdapter）](https://github.com/codepath/android_guides/wiki/Server-Synchronization-(SyncAdapter))
+
+
+
+## 测试
+
+Android的自动化测试框架和工具：
+
+- [ ] [Android测试选项](https://github.com/codepath/android_guides/wiki/Android-Testing-Options)
+- [ ] [用Robolectric进行单元测试](https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric)
+- [ ] [用Espresso进行UI测试](https://github.com/codepath/android_guides/wiki/UI-Testing-with-Espresso)
+- [ ] [使用Robotium进行UI测试](https://github.com/codepath/android_guides/wiki/UI-Testing-with-Robotium)
+- [ ] [Android测试框架](https://github.com/codepath/android_guides/wiki/Android-Testing-Framework)
+
+
+
+## 第三方库
+
+使用更高级的第三方库和SDK，节省时间并提高代码的可维护性：
+
+- [ ] [必备库](https://github.com/codepath/android_guides/wiki/Must-Have-Libraries)
+- [ ] [流行的外部工具](https://github.com/codepath/android_guides/wiki/Popular-External-Tools)（分析，崩溃报告）
+- [ ] [使用Dagger-2实现依赖注入](https://github.com/codepath/android_guides/wiki/Dependency-Injection-with-Dagger-2)
+- [ ] [用Butterknife减少样板视图](https://github.com/codepath/android_guides/wiki/Reducing-View-Boilerplate-with-Butterknife)
+- [ ] [事件总线](https://github.com/codepath/android_guides/wiki/Communicating-with-an-Event-Bus)（使用EventBus发布和接收事件）
+- [ ] [使用Parceler](https://github.com/codepath/android_guides/wiki/Using-Parceler)
+- [ ] [RxJava简介](https://github.com/codepath/android_guides/wiki/RxJava)
+- [ ] [RxJava和RxBinding](https://github.com/codepath/android_guides/wiki/RxJava-and-RxBinding)（使用Android 函数式编程）
+
+
+
+## 发布
+
+- [ ] [发布到Play商店](http://goo.gl/mUlGL1)
+- [ ] [使用Android Studio发布](https://github.com/codepath/android_guides/wiki/Publishing-to-the-Play-Store)
+- [ ] [调试和分析应用程序](https://github.com/codepath/android_guides/wiki/Debugging-and-Profiling-Apps)
+- [ ] [Android最佳实践](https://github.com/futurice/android-best-practices)
+- [ ] [在启动器中创建应用程序快捷方式](https://github.com/codepath/android_guides/wiki/Creating-App-Shortcuts-in-Launcher)
+
+
+
+## 工作流
+
+侧重于部署，依赖管理等问题：
+
+- [ ] [Gradle入门](https://github.com/codepath/android_guides/wiki/Getting-Started-with-Gradle)
+- [ ] [使用Android Studio](https://github.com/codepath/android_guides/wiki/Using-Android-Studio)
+- [ ] [安装Android SDK工具](https://github.com/codepath/android_guides/wiki/Installing-Android-SDK-Tools)
+- [ ] [用Jenkins CI构建Gradle项目](https://github.com/codepath/android_guides/wiki/Building-Gradle-Projects-with-Jenkins-CI)
+- [ ] [设置Travis CI](https://github.com/codepath/android_guides/wiki/Setting-up-Travis-CI)
+- [ ] [Git](https://github.com/codepath/android_guides/wiki/Collaborating-on-Projects-with-Git)
+- [ ] [投射设备到笔记本电脑](https://github.com/codepath/android_guides/wiki/Presenting-an-Android-Device)
+- [ ] [录制Android设备的视频](https://github.com/codepath/android_guides/wiki/Recording-Video-of-an-Android-Device)
+- [ ] [配置ProGuard](https://github.com/codepath/android_guides/wiki/Configuring-ProGuard)
+- [ ] [Lambda表达式](https://github.com/codepath/android_guides/wiki/Lambda-Expressions)
+
+
+
+
+## 特别
+
+- [ ] [为Android贡献](https://github.com/codepath/android_guides/wiki/Contributing-back-to-Android)
+- [ ] [建立你自己的Android库](https://github.com/codepath/android_guides/wiki/Building-your-own-Android-library)
 
 
 
