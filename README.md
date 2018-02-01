@@ -9,8 +9,7 @@
 
 ## 入门
 
-- [ ] [Android入门](https://github.com/codepath/android_guides/wiki/Beginning-Android-Resources)
-- [ ] [配置Android Studio](http://goo.gl/X2SVFR)
+- [x] [配置Android Studio](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/%E9%85%8D%E7%BD%AE%20Android%20Studio.md)
 - [ ] [在设备上运行应用程序](https://github.com/codepath/android_guides/wiki/Running-Apps-on-Your-Device)
 - [ ] [使用Android Studio开发我们的第一个应用程序](http://goo.gl/8R7Mty)
 - [ ] [移动应用程序体系结构](http://goo.gl/AAsGLx)
