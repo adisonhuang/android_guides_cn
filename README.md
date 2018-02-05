@@ -1,7 +1,7 @@
 # [android_guides](https://github.com/codepath/android_guides) 中文翻译
  对于Android 开发指南，大家熟知的一般是[官方教材](https://developer.android.com/training/index.html),但其实[Codepath](https://github.com/codepath/)的[android_guides](https://github.com/codepath/android_guides) 的开发指南，和官方相比起来，也是毫不逊色的，相比较官方的，它的教程更偏向实战，实用性更强。
 
-> *此项目不是英文文档的精准对应翻译，是个人以翻译android_guides为契机对 Android 知识进行整体梳理，所以会有不少自己的理解和延伸，再加上我的翻译水平有限，难免存在错误或者翻译不准确的地方，如果阅读后有不明白或者不懂，请移步英文版阅读。 欢迎批评指正。*
+> *此项目不是英文文档的精准对应翻译，是个人以翻译android_guides为契机对 Android 知识进行整体梳理，所以有些文章个人觉得没什么用或者太旧会进行删减，也会有自己的理解和延伸，再加上我的水平有限，难免存在错误或者翻译不准确的地方，如果阅读后有不明白或者不懂，请移步英文版阅读。 欢迎批评指正。*
 
 
 
@@ -9,17 +9,11 @@
 
 ## 入门
 
-- [x] [配置Android Studio](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/%E9%85%8D%E7%BD%AE%20Android%20Studio.md)
-- [ ] [在设备上运行应用程序](https://github.com/codepath/android_guides/wiki/Running-Apps-on-Your-Device)
-- [ ] [使用Android Studio开发我们的第一个应用程序](http://goo.gl/8R7Mty)
-- [ ] [移动应用程序体系结构](http://goo.gl/AAsGLx)
-- [ ] [移动屏幕原型](https://github.com/codepath/android_guides/wiki/Mobile-Screen-Archetypes)
-- [ ] [Todo应用开发指南](https://github.com/codepath/android_guides/wiki/Basic-Todo-App-Tutorial)
-- [ ] [示例Android应用程序](https://github.com/codepath/android_guides/wiki/Sample-Android-Apps)
-- [ ] [与Android更新保持同步](https://github.com/codepath/android_guides/wiki/Keeping-Updated-with-Android)（博客，资讯）
-- [ ] [Android最佳实践](https://github.com/codepath/android_guides/wiki/Effective-Java-for-Android)（java）
-- [ ] [使用Kotlin进行Android开发](https://github.com/codepath/android_guides/wiki/Using-Kotlin-for-Android-development)（Java的替代语法）
+### 概述
 
+- [x] 配置Android Studio [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/%E9%85%8D%E7%BD%AE%20Android%20Studio.md) [原文](https://docs.google.com/presentation/d/1iD0sMc-qIG80yZ1AQfDU5nxSAl3Xe4nx-2W_g9yzMSM/edit#slide=id.g22f60577ed_0_89)
+- [x] Android最佳实践 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)  [原文](https://github.com/codepath/android_guides/wiki/Effective-Java-for-Android)（java）
+- [ ] [使用Kotlin进行Android开发](https://github.com/codepath/android_guides/wiki/Using-Kotlin-for-Android-development)（Java的替代语法）
 ### 调试和问题解决
 
 - [ ] [异常调试和定位](https://github.com/codepath/android_guides/wiki/Debugging-Exceptions-within-your-App)
