@@ -13,7 +13,7 @@
 
 - [x] 配置Android Studio [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/%E9%85%8D%E7%BD%AE%20Android%20Studio.md) [原文](https://docs.google.com/presentation/d/1iD0sMc-qIG80yZ1AQfDU5nxSAl3Xe4nx-2W_g9yzMSM/edit#slide=id.g22f60577ed_0_89)
 - [x] Android最佳实践 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)  [原文](https://github.com/codepath/android_guides/wiki/Effective-Java-for-Android)（java）
-- [ ] [使用Kotlin进行Android开发](https://github.com/codepath/android_guides/wiki/Using-Kotlin-for-Android-development)（Java的替代语法）
+- [x] 使用Kotlin进行Android开发 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/%E4%BD%BF%E7%94%A8Kotlin%E8%BF%9B%E8%A1%8CAndroid%E5%BC%80%E5%8F%91.md)  [原文](https://github.com/codepath/android_guides/wiki/Using-Kotlin-for-Android-development)（Java的替代语法）
 ### 调试和问题解决
 
 - [ ] [异常调试和定位](https://github.com/codepath/android_guides/wiki/Debugging-Exceptions-within-your-App)
