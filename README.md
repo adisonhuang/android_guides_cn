@@ -17,6 +17,7 @@
 ### 调试和问题解决
 
 - [x] 异常调试和定位 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%E5%BA%94%E7%94%A8%E5%BC%82%E5%B8%B8%E8%B0%83%E8%AF%95.md) [原文](https://github.com/codepath/android_guides/wiki/Debugging-Exceptions-within-your-App)
+- [x] android 调试技巧  [译者个人文章](http://blog.adisonhyh.com/article/11/) 
 - [ ] [常见问题解决](https://github.com/codepath/android_guides/wiki/Troubleshooting-Common-Issues)
 - [ ] [网络故障排除](https://github.com/codepath/android_guides/wiki/Troubleshooting-API-calls)
 
