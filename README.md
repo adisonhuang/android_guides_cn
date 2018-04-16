@@ -7,38 +7,11 @@
 
 ![codepath](http://p2eo71f28.bkt.clouddn.com/68747470733a2f2f692e696d6775722e636f6d2f586778576679462e706e67.png)
 
-## 入门
-
-### 概述
-
-- [x] 配置Android Studio [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/%E9%85%8D%E7%BD%AE%20Android%20Studio.md) [原文](https://docs.google.com/presentation/d/1iD0sMc-qIG80yZ1AQfDU5nxSAl3Xe4nx-2W_g9yzMSM/edit#slide=id.g22f60577ed_0_89)
-- [x] Android最佳实践 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)  [原文](https://github.com/codepath/android_guides/wiki/Effective-Java-for-Android)（java）
-- [x] 使用Kotlin进行Android开发 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/%E4%BD%BF%E7%94%A8Kotlin%E8%BF%9B%E8%A1%8CAndroid%E5%BC%80%E5%8F%91.md)  [原文](https://github.com/codepath/android_guides/wiki/Using-Kotlin-for-Android-development)（Java的替代语法）
-### 调试和问题解决
-
-- [x] 异常调试和定位 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%E5%BA%94%E7%94%A8%E5%BC%82%E5%B8%B8%E8%B0%83%E8%AF%95.md) [原文](https://github.com/codepath/android_guides/wiki/Debugging-Exceptions-within-your-App)
-- [x] android 调试技巧  [译者个人文章](http://blog.adisonhyh.com/article/11/) 
-- [ ] [常见问题解决](https://github.com/codepath/android_guides/wiki/Troubleshooting-Common-Issues)
-- [ ] [网络故障排除](https://github.com/codepath/android_guides/wiki/Troubleshooting-API-calls)
-
-### 外部开发资源
-
-- [ ] [Android资源列表](https://github.com/codepath/android_guides/wiki/Beginning-Android-Resources#beginning-android-resources)
-- [ ] [终极的Android参考](https://github.com/aritraroy/UltimateAndroidReference/blob/master/README.md)
-- [ ] [Android技巧](https://github.com/nisrulz/android-tips-tricks/blob/master/Readme.md)
-- [ ] [Google Android交互式编解码器](https://codelabs.developers.google.com/?cat=Android)
-- [ ] [Google Android常用术语](https://developers.google.com/android/for-all/vocab-words/)
-- [ ] [Android资源汇总](https://github.com/MakinGiants/awesome-android-learner)
-- [ ] [Android学习资源](https://github.com/CodementorIO/Android-Learning-Resources)
-- [ ] [Awesome Android](https://github.com/amitshekhariitbhu/awesome-android-complete-reference)
-- [ ] [免费Android课程](https://github.com/codepath/android_guides/wiki/Free-Android-Curriculum)
-
-
 ## Android 结构
 
 探索应用程序开发核心：
 
-- [ ] [使用上下文](https://github.com/codepath/android_guides/wiki/Using-Context)
+- [x] Android Context简述  [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android+Context%E7%AE%80%E8%BF%B0.md) [原文](https://github.com/codepath/android_guides/wiki/Using-Context)
 - [ ] [Android目录结构](https://github.com/codepath/android_guides/wiki/Android-Directory-Structure)
 - [ ] [源文件目录结构整理](https://github.com/codepath/android_guides/wiki/Organizing-your-Source-Files)
 - [ ] [Android应用程序体系结构](https://github.com/codepath/android_guides/wiki/Architecture-of-Android-Apps)
