@@ -12,7 +12,7 @@
 探索应用程序开发核心：
 
 - [x] Android Context简述  [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%20Context%E7%AE%80%E8%BF%B0.md) [原文](https://github.com/codepath/android_guides/wiki/Using-Context)
-- [ ] [Android目录结构](https://github.com/codepath/android_guides/wiki/Android-Directory-Structure)
+- [x] Android目录结构 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%20目录结构.md) [原文](https://github.com/codepath/android_guides/wiki/Android-Directory-Structure)
 - [ ] [源文件目录结构整理](https://github.com/codepath/android_guides/wiki/Organizing-your-Source-Files)
 - [ ] [Android应用程序体系结构](https://github.com/codepath/android_guides/wiki/Architecture-of-Android-Apps)
 - [ ] [了解应用程序资源](https://github.com/codepath/android_guides/wiki/Understanding-App-Resources)
