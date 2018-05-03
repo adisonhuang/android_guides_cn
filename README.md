@@ -13,7 +13,7 @@
 
 - [x] Android Context简述  [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%20Context%E7%AE%80%E8%BF%B0.md) [原文](https://github.com/codepath/android_guides/wiki/Using-Context)
 - [x] Android目录结构 [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/Android%20目录结构.md) [原文](https://github.com/codepath/android_guides/wiki/Android-Directory-Structure)
-- [ ] [源文件目录结构整理](https://github.com/codepath/android_guides/wiki/Organizing-your-Source-Files)
+- [x] 源文件目录结构整理  [译文](https://github.com/adisonhuang/android_guides_cn/blob/master/cn/%E6%BA%90%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E6%95%B4%E7%90%86.md) [原文](https://github.com/codepath/android_guides/wiki/Organizing-your-Source-Files)
 - [ ] [Android应用程序体系结构](https://github.com/codepath/android_guides/wiki/Architecture-of-Android-Apps)
 - [ ] [了解应用程序资源](https://github.com/codepath/android_guides/wiki/Understanding-App-Resources)
 - [ ] [了解应用生命周期](https://github.com/codepath/android_guides/wiki/Activity-Lifecycle)
